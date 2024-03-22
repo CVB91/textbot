@@ -4,6 +4,7 @@ def main():
     count = count_letters(text)
     occurance = sort_characters_by_occurrence(count)
     print(occurance)
+    print(count)
 
 def get_book_text(path):
     with open(path) as f:

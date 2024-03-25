@@ -10,7 +10,7 @@ def get_book_text(path):
     with open(path) as f:
         return f.read()
 
-
+# need to create more ways to chunck text
 def get_word_count(text):
     words = text.split()
     count = 0
